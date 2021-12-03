@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		var rand = Math.floor(Math.random()*10+1);
+		var input;
+		while(true){
+			input = window.prompt('guess a number from 1 to 10');
+
+			
+			if(input == rand) {
+				break;
+			}		
+		}
+		document.write('<h1>You can click F5 to play the game again</h1>');
+	</script>
+</body>
+</html>
